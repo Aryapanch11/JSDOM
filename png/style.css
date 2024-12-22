@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(66, 153, 181);
+    font-size: 20px;
+    font-family: 'distant feeling';
+    font-weight: 600;
+    border-radius: 10px;
+    z-index: 1;
+}
+button:active{
+    scale: 0.97;
+}

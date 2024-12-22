@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background: linear-gradient(45deg,#f9ce34,#c0007a,#ff0069,blue); */
+    background-image: url('https://i.pinimg.com/736x/3c/e8/3d/3ce83dba6ff531fa407d43095f4d56e2.jpg');
+   background-size: cover; 
+}
+.card{
+   width: 300px;
+   height: 500px;
+   background-color: whitesmoke;
+   border-radius: 8px;
+   position: relative;
+   
+}
+#storyian{
+     width: 100%;
+     height: 100px;
+     border-bottom: 1px solid gray;
+     padding: 10px;
+     white-space: nowrap;
+     overflow-x: auto;
+     overflow-y: hidden;    
+}
+#storyian::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(45deg,#f9ce34,#c0007a,#ff0069);
+    display: inline-block;      
+}
+.story img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    border-radius: 50%;
+}
+.full{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    position: absolute;
+}
+.posts{
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(50, 121, 182); */
+}
+.post{
+    display: flex;
+    padding: 3px 6px;
+    /* background-color: rgba(0, 0, 0, 0.163); */
+    border-bottom:0.2px solid rgba(0, 0, 0, 0.392);
+}
+.post img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.post h3{
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 700;
+}
+.post h3 i{
+    font-size: 22px;
+    margin-left: 120px; 
+}
+.image img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.438);
+}
+.likes{
+    width: 100%;
+    height: 50px;
+    padding: 5px 5px;   
+}
+.likes i{
+    font-size: 22px;
+    margin: 5px;
+}
+.likes #saved{
+    margin-top: 3px;  
+    margin-left: 130px;   
+}
+.likes h4{
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0.685);
+    margin-left: 4px;
+}
+

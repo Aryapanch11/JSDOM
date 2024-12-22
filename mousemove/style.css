@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#cursor{
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-color: white;
+   position: absolute;
+   transition: all ease 0.1s;
+}
+h1{
+    font-size: 150px;
+    font-family: 'distant feeling';
+    color: white;
+    position: absolute;
+    mix-blend-mode: difference;
+}

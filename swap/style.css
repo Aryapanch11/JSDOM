@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+   
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+button{
+    border-radius: 6px;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'distant feeling';
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+}
