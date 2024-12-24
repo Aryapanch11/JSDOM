@@ -100,9 +100,8 @@ body{
 }
 .posts{
     width: 100%;
-    height: 300px;
-    margin-bottom: 100px;
-    /* background-color: rgb(50, 121, 182); */
+    height: 380px;
+    margin-bottom: 30px;
 }
 .post{
     display: flex;
@@ -137,8 +136,9 @@ body{
 }
 .likes{
     width: 100%;
-    height: 50px;
-    padding: 5px 5px;   
+    height: 30px;
+    padding: 5px 10px;  
+   
 }
 .likes i{
     font-size: 22px;
@@ -152,5 +152,27 @@ body{
     font-size: 9px;
     color: rgba(0, 0, 0, 0.685);
     margin-left: 4px;
+   
+}
+#last{
+   padding-bottom: 50px;
+}
+.bottom{
+    position: fixed;
+    background-color: #fff;
+    bottom: 15%;
+    display: flex;
+    gap: 36px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.bottom i{
+    font-size: 26px;
+}
+.bottom img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
