@@ -101,29 +101,32 @@ body{
 .posts{
     width: 100%;
     height: 300px;
-   margin-bottom: 100px;
+    margin-bottom: 100px;
     /* background-color: rgb(50, 121, 182); */
 }
 .post{
     display: flex;
-    padding: 3px 6px;
+    align-items: center;
+    padding:  6px;
     /* background-color: rgba(0, 0, 0, 0.163); */
     border-bottom:0.2px solid rgba(0, 0, 0, 0.392);
 }
 .post img{
-    width: 35px;
-    height: 35px;
+    background-color: black;
+    height: 30px;
+    width: 30px;
     object-fit: cover;
-    border-radius: 50px;
+    background-position: center;
+    border-radius: 50%;
 }
 .post h3{
     font-size: 13px;
     padding: 10px;
     font-weight: 700;
 }
-.post h3 i{
+.post  i{
     font-size: 22px;
-    margin-left: 120px; 
+    margin-left: 35%;
 }
 .image img{
     width: 100%;
